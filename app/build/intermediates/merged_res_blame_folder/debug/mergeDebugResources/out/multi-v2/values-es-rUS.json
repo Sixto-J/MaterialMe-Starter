@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.materialme.app-mergeDebugResources-25:/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "com.example.android.materialme.app-mergeDebugResources-28:/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "/home/dam/.gradle/caches/transforms-4/906753b1313d0d6416aa8391cc212691/transformed/core-1.13.0/res/values-es-rUS/values-es-rUS.xml",

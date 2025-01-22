@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.materialme.app-mergeDebugResources-25:/values-lv/values-lv.xml",
+            "outputFile": "com.example.android.materialme.app-mergeDebugResources-28:/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "/home/dam/.gradle/caches/transforms-4/1ad5d81293179a39a17ccecf7df9a6ef/transformed/appcompat-1.7.0/res/values-lv/values-lv.xml",

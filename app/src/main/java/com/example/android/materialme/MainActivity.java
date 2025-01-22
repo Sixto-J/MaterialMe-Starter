@@ -18,6 +18,9 @@ package com.example.android.materialme;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -104,6 +107,16 @@ public class MainActivity extends AppCompatActivity {
 
         //Attach the helper to the RecyclerView
         helper.attachToRecyclerView(mRecyclerView);
+        ImageButton FABButton = findViewById(R.id.resetButton);
+
+       FABButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                resetSports();
+
+            }
+        });
     }
 
     /**
@@ -134,6 +147,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Notify the adapter of the change.
         mAdapter.notifyDataSetChanged();
+    }
+
+    private void resetSports(){
+
+        initializeData();
     }
 
 }

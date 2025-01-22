@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.materialme.app-mergeDebugResources-25:/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "com.example.android.materialme.app-mergeDebugResources-28:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
                     "source": "/home/dam/AndroidStudioProjects/MaterialMe-Starter/app/src/main/res/values-w820dp/dimens.xml",

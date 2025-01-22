@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.materialme.app-mergeDebugResources-25:/values-land/values-land.xml",
+            "outputFile": "com.example.android.materialme.app-mergeDebugResources-28:/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/home/dam/.gradle/caches/transforms-4/1ad5d81293179a39a17ccecf7df9a6ef/transformed/appcompat-1.7.0/res/values-land/values-land.xml",
@@ -11,6 +11,25 @@
                         "startOffsets": "55,125,196",
                         "endColumns": "69,70,67",
                         "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/home/dam/.gradle/caches/transforms-4/abf79a26a14970494360b155f9f206cc/transformed/material-1.0.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
                     }
                 }
             ]

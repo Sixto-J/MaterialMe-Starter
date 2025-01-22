@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.materialme.app-mergeDebugResources-25:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.android.materialme.app-mergeDebugResources-28:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "/home/dam/.gradle/caches/transforms-4/1ad5d81293179a39a17ccecf7df9a6ef/transformed/appcompat-1.7.0/res/values-large-v4/values-large-v4.xml",
@@ -11,6 +11,23 @@
                         "startOffsets": "55,114,185,256,326,396,464,532,636",
                         "endColumns": "58,70,70,69,69,67,67,103,115",
                         "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                },
+                {
+                    "source": "/home/dam/.gradle/caches/transforms-4/abf79a26a14970494360b155f9f206cc/transformed/material-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
                     }
                 }
             ]

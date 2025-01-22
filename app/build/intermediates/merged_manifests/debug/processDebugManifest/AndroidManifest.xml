@@ -21,7 +21,7 @@
 
     <uses-sdk
         android:minSdkVersion="29"
-        android:targetSdkVersion="33" />
+        android:targetSdkVersion="35" />
 
     <permission
         android:name="com.ngamolsky.android.materialme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -48,6 +48,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.android.materialme.DetailActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
