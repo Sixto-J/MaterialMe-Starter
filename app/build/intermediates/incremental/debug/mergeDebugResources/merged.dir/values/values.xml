@@ -499,6 +499,7 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="grid_column_count">1</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="mtrl_btn_anim_delay_ms">100</integer>
     <integer name="mtrl_btn_anim_duration_ms">100</integer>
@@ -2255,6 +2256,16 @@
         <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
+    <style name="SportsDetailText" parent="TextAppearance.AppCompat.Subhead"/>
+    <style name="SportsDetailText1" parent="SportsDetailText"/>
+    <style name="SportsDetailTitle" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+    <style name="SportsDetailTitle1" parent="SportsDetailTitle">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+    <style name="SportsTitle" parent="TextAppearance.AppCompat.Headline"/>
+    <style name="SportsTitle1" parent="SportsTitle"/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
     <style name="TextAppearance.AppCompat.Body2" parent="Base.TextAppearance.AppCompat.Body2"/>

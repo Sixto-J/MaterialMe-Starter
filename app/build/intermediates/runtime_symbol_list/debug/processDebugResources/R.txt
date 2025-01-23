@@ -1308,6 +1308,7 @@ int integer cancel_button_image_alpha 0x7f0a0004
 int integer config_tooltipAnimTime 0x7f0a0005
 int integer design_snackbar_text_max_lines 0x7f0a0006
 int integer design_tab_indicator_anim_duration_ms 0x7f0a0007
+int integer grid_column_count 0x7f0a000f
 int integer hide_password_duration 0x7f0a0008
 int integer mtrl_btn_anim_delay_ms 0x7f0a0009
 int integer mtrl_btn_anim_duration_ms 0x7f0a000a
@@ -1675,6 +1676,12 @@ int style RtlOverlay_Widget_AppCompat_Search_DropDown_Text 0x7f0f00e2
 int style RtlOverlay_Widget_AppCompat_SearchView_MagIcon 0x7f0f00e3
 int style RtlUnderlay_Widget_AppCompat_ActionButton 0x7f0f00e4
 int style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow 0x7f0f00e5
+int style SportsDetailText 0x7f0f01f5
+int style SportsDetailText1 0x7f0f01f6
+int style SportsDetailTitle 0x7f0f01f7
+int style SportsDetailTitle1 0x7f0f01f8
+int style SportsTitle 0x7f0f01f9
+int style SportsTitle1 0x7f0f01fa
 int style TextAppearance_AppCompat 0x7f0f00e6
 int style TextAppearance_AppCompat_Body1 0x7f0f00e7
 int style TextAppearance_AppCompat_Body2 0x7f0f00e8

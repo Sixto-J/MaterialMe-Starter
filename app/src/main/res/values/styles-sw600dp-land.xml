@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SportsDetailTitle1" parent="SportsDetailTitle">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <style name="SportsDetailText1" parent="SportsDetailText"/>
+
+    <style name="SportsTitle1" parent="SportsTitle"/>
+
+
+</resources>

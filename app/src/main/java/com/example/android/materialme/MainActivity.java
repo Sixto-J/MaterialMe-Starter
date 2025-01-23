@@ -22,6 +22,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -42,14 +43,34 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
+
+
 
         // Initialize the RecyclerView.
         mRecyclerView = findViewById(R.id.recyclerView);
 
-        // Set the Layout Manager.
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        // sin usar - Set the Layout Manager.
+        //mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+
+        // Set the Grid Layout Manager.
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumnCount));
+
+
+        int swipeDirs;
+        if(gridColumnCount > 1){
+            swipeDirs = 0;
+        } else {
+            swipeDirs = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
+        }
+
 
         // Initialize the ArrayList that will contain the data.
         mSportsData = new ArrayList<>();
@@ -62,11 +83,10 @@ public class MainActivity extends AppCompatActivity {
         initializeData();
 
 
-
         //Helper class for creating swipe to dismiss and drag and drop functionality
         ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback
                 (ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT | ItemTouchHelper.DOWN
-                        | ItemTouchHelper.UP, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+                        | ItemTouchHelper.UP, swipeDirs) {
 
             /**
              * Method that defines the drag and drop functionality

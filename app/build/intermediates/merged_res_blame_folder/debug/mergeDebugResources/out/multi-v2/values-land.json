@@ -4,6 +4,23 @@
             "outputFile": "com.example.android.materialme.app-mergeDebugResources-28:/values-land/values-land.xml",
             "map": [
                 {
+                    "source": "/home/dam/AndroidStudioProjects/MaterialMe-Starter/app/src/main/res/values-land/integers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "49",
+                        "endOffsets": "309"
+                    }
+                },
+                {
                     "source": "/home/dam/.gradle/caches/transforms-4/1ad5d81293179a39a17ccecf7df9a6ef/transformed/appcompat-1.7.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -24,12 +41,12 @@
                         "endOffsets": "222"
                     },
                     "to": {
-                        "startLines": "5",
+                        "startLines": "6",
                         "startColumns": "4",
-                        "startOffsets": "264",
-                        "endLines": "8",
+                        "startOffsets": "314",
+                        "endLines": "9",
                         "endColumns": "10",
-                        "endOffsets": "431"
+                        "endOffsets": "481"
                     }
                 }
             ]
